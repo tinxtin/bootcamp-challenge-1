@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+/* body selector to target the whole document body, changing the background color to choosen colour */
 body {
     background-color: #d9dcd6;
 }
 
+/* selects the header class, adding properties to it */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +16,18 @@ body {
     color: #ffffff;
 }
 
+/* descendant selector from the header class, selecting the child h1 tag*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* descendant selector from the header class, selecting the child h1 tag and the class tag inside */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/* changed descendant div selector -> nav selector */
+/* changed descendant div selector -> nav selector, adding properties to it */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +53,7 @@ body {
     text-decoration: none;
 }
 
+/* p tag selector, effecting all p tags in the html doc */
 p {
     font-size: 16px;
 }
@@ -63,22 +67,26 @@ p {
     background-position: center;
 }
 
+/* selects the specific class and applies the properties */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* selects the specific class and applies the properties */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* select content class/section tag and applies the properties */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* selects benefit class/aside tag and applies the properties */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -130,6 +138,7 @@ p {
     font-size: 36px;
 }
 
+/* select footer class and applies the properties */
 .footer {
     padding: 30px;
     clear: both;
@@ -137,6 +146,7 @@ p {
     text-align: center;
 }
 
+/* descendant selector to the h2 tag child element */
 .footer h2 {
     font-size: 20px;
 }
