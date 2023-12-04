@@ -1,3 +1,4 @@
+/* universal selector matches elements of all type in the html doc, applying this css properties to all the elements. */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -24,7 +25,7 @@ body {
 }
 
 /* descendant selector from the header class, selecting the child h1 tag and the class tag inside */
-.header h1 .seo {
+.header h1 .logo-title {
     color: #d9dcd6;
 }
 
@@ -54,7 +55,7 @@ body {
     text-decoration: none;
 }
 
-/* changed .hero selector > .meeting selector */
+/* changed .hero selector > .meeting selector, this class name fits better with the description of the image */
 .meeting {
     height: 800px;
     width: 100%;
@@ -64,7 +65,7 @@ body {
 }
 
 /* ---SECTION CSS--- */
-/* select content class/section tag and applies the properties */
+/* select content class tag and applies the properties */
 .content {
     width: 75%;
     display: inline-block;
@@ -110,7 +111,7 @@ p {
 }
 
 /* ---ASIDE CSS--- */
-/* selects benefit class/aside tag and applies the properties */
+/* selects benefit class and applies the properties */
 .benefits {
     margin-right: 20px;
     padding: 20px;
