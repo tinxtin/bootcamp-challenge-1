@@ -34,3 +34,4 @@ The following image shows the web application's appearance and functionality:
 
 
 ## Deployed Link
+github page url: https://tinxtin.github.io/bootcamp-challenge-1/
